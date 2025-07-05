@@ -1,0 +1,92 @@
+[
+  {
+    "title": "RedLeafStats",
+    "description": "An interactive dashboard for Canadian immigration trends using Firebase, React, and ECharts.",
+    "tags": ["React", "Firebase", "ECharts"],
+    "link": "https://oneleaf.ca",
+    "github": "https://github.com/Gihanz/redleafstats",
+    "image": "redleafstats.png",
+    "date": "2025-06-30"
+  },
+  {
+    "title": "Portfolio Website",
+    "description": "My personal developer portfolio built with React and Tailwind CSS.",
+    "tags": ["React", "Tailwind"],
+    "link": "/",
+    "github": "https://github.com/Gihanz/gihan-portfolio",
+    "image": "portfolio.png",
+    "date": "2019-06-30"
+  },
+  {
+    "title": "Portfolio Website",
+    "description": "My personal developer portfolio built with React and Tailwind CSS.",
+    "tags": ["React", "Tailwind"],
+    "link": "/",
+    "github": "https://github.com/Gihanz/gihan-portfolio",
+    "image": "portfolio.png",
+    "date": "2019-06-30"
+  },
+  {
+    "title": "Portfolio Website",
+    "description": "My personal developer portfolio built with React and Tailwind CSS.",
+    "tags": ["React", "Tailwind"],
+    "link": "/",
+    "github": "https://github.com/Gihanz/gihan-portfolio",
+    "image": "portfolio.png",
+    "date": "2019-06-30"
+  },
+  {
+    "title": "Portfolio Website",
+    "description": "My personal developer portfolio built with React and Tailwind CSS.",
+    "tags": ["React", "Tailwind"],
+    "link": "/",
+    "github": "https://github.com/Gihanz/gihan-portfolio",
+    "image": "portfolio.png",
+    "date": "2019-06-30"
+  },
+  {
+    "title": "Portfolio Website",
+    "description": "My personal developer portfolio built with React and Tailwind CSS.",
+    "tags": ["React", "Tailwind"],
+    "link": "/",
+    "github": "https://github.com/Gihanz/gihan-portfolio",
+    "image": "portfolio.png",
+    "date": "2019-06-30"
+  },
+  {
+    "title": "Portfolio Website",
+    "description": "My personal developer portfolio built with React and Tailwind CSS.",
+    "tags": ["React", "Tailwind"],
+    "link": "/",
+    "github": "https://github.com/Gihanz/gihan-portfolio",
+    "image": "portfolio.png",
+    "date": "2019-06-30"
+  },
+  {
+    "title": "Portfolio Website",
+    "description": "My personal developer portfolio built with React and Tailwind CSS.",
+    "tags": ["React", "Tailwind"],
+    "link": "/",
+    "github": "https://github.com/Gihanz/gihan-portfolio",
+    "image": "portfolio.png",
+    "date": "2019-06-30"
+  },
+  {
+    "title": "Portfolio Website",
+    "description": "My personal developer portfolio built with React and Tailwind CSS.",
+    "tags": ["React", "Tailwind"],
+    "link": "/",
+    "github": "https://github.com/Gihanz/gihan-portfolio",
+    "image": "portfolio.png",
+    "date": "2019-06-30"
+  },
+  {
+    "title": "Portfolio Website",
+    "description": "My personal developer portfolio built with React and Tailwind CSS.",
+    "tags": ["React", "Tailwind"],
+    "link": "/",
+    "github": "https://github.com/Gihanz/gihan-portfolio",
+    "image": "portfolio.png",
+    "date": "2019-06-30"
+  }
+]
