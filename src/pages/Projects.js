@@ -1,17 +1,17 @@
 import projects from "../data/projects.json";
 import { Fade } from "react-awesome-reveal";
-import { FaGithub, FaPlayCircle } from "react-icons/fa"; // ← Import icons
+import { FaGithub, FaPlayCircle } from "react-icons/fa";
 
 export default function Projects() {
   return (
     <section className="p-6 max-w-screen-xl mx-auto pt-20">
       <h2 className="text-2xl font-semibold mb-8 text-center">My Projects</h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-5 gap-x-6 gap-y-8 justify-items-center">
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-6 gap-y-8 justify-items-center">
         {projects.map((project, index) => (
           <Fade key={project.title} triggerOnce delay={index * 30}>
-            <div className="group bg-white dark:bg-gray-800 rounded-xl shadow-md hover:shadow-2xl transform transition-all duration-300 hover:scale-[1.04] w-full max-w-md flex flex-col p-6">
-
+            <div className="group bg-white dark:bg-gray-800 rounded-xl shadow-md hover:shadow-2xl transform transition-all duration-300 hover:scale-[1.04] w-full max-w-lg flex flex-col p-6">
+              
               {/* Row: Image + Title + Date */}
               <div className="flex items-center gap-4 mb-4">
                 <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full overflow-hidden border-4 border-gray-300 dark:border-gray-600 flex-shrink-0 transform transition-transform duration-300 group-hover:rotate-3">

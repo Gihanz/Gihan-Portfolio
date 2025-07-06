@@ -2,6 +2,8 @@ import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import { Fade } from "react-awesome-reveal";
 import profileImg from "../assets/profile.png";
+import mitLogo from "../assets/mit.png";
+import nableLogo from "../assets/nable.png";
 
 import { FaLinkedin, FaMedium, FaGithub } from "react-icons/fa";
 
@@ -37,6 +39,30 @@ export default function About() {
         </h2>
       </Fade>
 
+      {/* Ex-Experience with Logos */}
+      <Fade triggerOnce delay={300}>
+        <div className="flex flex-wrap justify-center items-center gap-2 mt-4 mb-4 text-base text-gray-700 dark:text-gray-300">
+          <span>Ex-Senior Software Engineer at</span>
+          <a
+            href="https://www.mitesp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={mitLogo} alt="MillenniumIT" className="h-8" />
+          </a>
+          <span className="mx-1 hidden sm:inline">|</span>
+          <span>Ex-Senior Software Engineer at</span>
+          <a
+            href="https://www.n-able.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={nableLogo} alt="N-able" className="h-5" />
+          </a>
+        </div>
+      </Fade>
+
+
       {/* Content Sections */}
       <div className="mt-12 w-full max-w-4xl text-left flex flex-col gap-y-12">
         {/* Me Section */}
@@ -44,8 +70,8 @@ export default function About() {
           <div className="flex flex-col md:flex-row gap-4 mb-4">
             <h3 className="text-2xl font-semibold w-full md:w-1/4">Me</h3>
             <p className="text-gray-700 dark:text-gray-300 w-full md:w-3/4">
-              Hi, I'm Gihan Shamike — a programmer and FileNet developer currently based in London, Ontario, Canada. Originally from Sri Lanka.
-              Apart from programming, I enjoy music, watching sci-fi, and staying active with badminton and cycling.
+              Hi, I'm Gihan Shamike - a programmer and FileNet developer currently based in London, Ontario, Canada. Originally from Sri Lanka.
+              Apart from programming, I enjoy art work, watching sci-fi, and staying active with badminton and cycling.
             </p>
           </div>
         </Fade>
@@ -55,8 +81,8 @@ export default function About() {
           <div className="flex flex-col md:flex-row gap-4 mb-4">
             <h3 className="text-2xl font-semibold w-full md:w-1/4">Specialized</h3>
             <p className="text-gray-700 dark:text-gray-300 w-full md:w-3/4">
-              I have over 10 years of experience in the IT industry, specializing in enterprise content management using IBM FileNet, 
-              Java middleware, and business automation platforms. My background includes customizing ICN, integrating enterprise records, 
+              I have over 7 years of experience in the IT industry, specializing in enterprise content management using IBM FileNet, 
+              Java middleware, and IBM BAW. My background includes customizing ICN, integrating enterprise records, 
               and delivering full-stack solutions. I’m currently focused on modern web development using React, Firebase, and serverless stacks.
             </p>
           </div>
@@ -67,9 +93,8 @@ export default function About() {
           <div className="flex flex-col md:flex-row gap-4 mb-4">
             <h3 className="text-2xl font-semibold w-full md:w-1/4">Experience</h3>
             <p className="text-gray-700 dark:text-gray-300 w-full md:w-3/4">
-              I have over 7 years of experience as a programmer and FileNet developer, with a strong focus on enterprise content and records management solutions.
               I’ve worked on several large-scale projects involving IBM FileNet P8, IBM Case Manager, and IBM Enterprise Records,
-              primarily using Java, JavaScript, and Web Services. My experience includes working at MillenniumIT and Nable, where I was responsible for FileNet customization,
+              primarily using Java, JavaScript, and RESTful Web Services. My experience includes working at MillenniumIT and Nable, where I was responsible for FileNet customization,
               workflow automation, and integrating middleware solutions using IBM WebSphere. My work has helped streamline business processes for clients in sectors such as finance, insurance, and government.
             </p>
           </div>

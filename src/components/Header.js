@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { FaSun, FaMoon } from "react-icons/fa";
+import { FaSun, FaCloudMoon } from "react-icons/fa";
 import logoLight from "../assets/logo-light.png";
 import logoDark from "../assets/logo-dark.png";
 
@@ -90,7 +90,7 @@ export default function Header({ darkMode, toggleDarkMode }) {
             {darkMode ? (
               <FaSun size={18} color="#facc15" />
             ) : (
-              <FaMoon size={18} color="#3b82f6" />
+              <FaCloudMoon size={18} color="#3b82f6" />
             )}
           </button>
         </nav>
@@ -181,7 +181,7 @@ export default function Header({ darkMode, toggleDarkMode }) {
               </>
             ) : (
               <>
-                <FaMoon color="#3b82f6" />
+                <FaCloudMoon color="#3b82f6" />
                 Dark Mode
               </>
             )}
