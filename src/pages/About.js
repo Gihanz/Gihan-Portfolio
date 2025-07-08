@@ -21,7 +21,7 @@ export default function About() {
 
       {/* Name */}
       <Fade triggerOnce delay={100}>
-        <h1 className="text-4xl font-semibold">Gihan Shamike</h1>
+        <h1 className="text-[3.25rem]">Gihan Shamike</h1>
       </Fade>
 
       {/* Typewriter */}

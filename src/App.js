@@ -8,7 +8,7 @@ import Blog from "./pages/Blog";
 import Resume from "./pages/Resume";
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   useEffect(() => {
     document.documentElement.classList.toggle("dark", darkMode);
