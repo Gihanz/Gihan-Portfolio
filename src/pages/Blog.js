@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Fade } from "react-awesome-reveal";
 import fallbackImg from "../assets/fallback.png";
-import logo from "../assets/medium_logo.png"; // Your logo for final card
+import logo from "../assets/p8hub_logo.png";
 
 function getFirstImageFromHtml(html) {
   if (!html) return null;

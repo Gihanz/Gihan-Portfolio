@@ -62,26 +62,25 @@ export default function About() {
         </div>
       </Fade>
 
-
       {/* Content Sections */}
       <div className="mt-12 w-full max-w-4xl text-left flex flex-col gap-y-12">
         {/* Me Section */}
-        <Fade triggerOnce delay={100} duration={100} cascade>
+        <Fade triggerOnce duration={100} cascade>
           <div className="flex flex-col md:flex-row gap-4 mb-4">
             <h3 className="text-2xl font-semibold w-full md:w-1/4">Me</h3>
             <p className="text-gray-700 dark:text-gray-300 w-full md:w-3/4">
-              Hi, I'm Gihan Shamike - a programmer and FileNet developer currently based in London, Ontario, Canada. Originally from Sri Lanka.
+              Hi, I'm Gihan Shamike - a programmer and FileNet developer currently based in London, Ontario, Canada. Originally from <a href="https://www.lonelyplanet.com/destinations/sri-lanka" target="_blank" rel="noopener noreferrer" className="text-yellow-700 dark:text-yellow-500">Sri Lanka</a>.
               Apart from programming, I enjoy art work, watching sci-fi, and staying active with badminton and cycling.
             </p>
           </div>
         </Fade>
 
         {/* Specialized Section */}
-        <Fade triggerOnce delay={150} duration={100} cascade>
+        <Fade triggerOnce duration={100} cascade>
           <div className="flex flex-col md:flex-row gap-4 mb-4">
             <h3 className="text-2xl font-semibold w-full md:w-1/4">Specialized</h3>
             <p className="text-gray-700 dark:text-gray-300 w-full md:w-3/4">
-              I have over 7 years of experience in the IT industry, specializing in enterprise content management using IBM FileNet, 
+              I have over 7 years of experience in the IT industry, specializing in enterprise content management using <a href="https://www.ibm.com/products/filenet-content-manager" target="_blank" rel="noopener noreferrer" className="text-yellow-700 dark:text-yellow-500">IBM FileNet</a>, 
               Java middleware, and IBM BAW. My background includes customizing ICN, integrating enterprise records, 
               and delivering full-stack solutions. I’m currently focused on modern web development using React, Firebase, and serverless stacks.
             </p>
@@ -89,23 +88,23 @@ export default function About() {
         </Fade>
 
         {/* Experience Section */}
-        <Fade triggerOnce delay={200} duration={100} cascade>
+        <Fade triggerOnce duration={100} cascade>
           <div className="flex flex-col md:flex-row gap-4 mb-4">
             <h3 className="text-2xl font-semibold w-full md:w-1/4">Experience</h3>
             <p className="text-gray-700 dark:text-gray-300 w-full md:w-3/4">
               I’ve worked on several large-scale projects involving IBM FileNet P8, IBM Case Manager, and IBM Enterprise Records,
-              primarily using Java, JavaScript, and RESTful Web Services. My experience includes working at MillenniumIT and Nable, where I was responsible for FileNet customization,
+              primarily using Java, JavaScript, and RESTful Web Services. My experience includes working at <a href="https://www.mitesp.com/" target="_blank" rel="noopener noreferrer" className="text-yellow-700 dark:text-yellow-500">MillenniumIT</a> and <a href="https://www.n-able.com/" target="_blank" rel="noopener noreferrer" className="text-yellow-700 dark:text-yellow-500">Nable</a>, where I was responsible for FileNet customization,
               workflow automation, and integrating middleware solutions using IBM WebSphere. My work has helped streamline business processes for clients in sectors such as finance, insurance, and government.
             </p>
           </div>
         </Fade>
 
         {/* Blog Section */}
-        <Fade triggerOnce delay={250} duration={100} cascade>
+        <Fade triggerOnce duration={100} cascade>
           <div className="flex flex-col md:flex-row gap-4">
             <h3 className="text-2xl font-semibold w-full md:w-1/4">Blog</h3>
             <p className="text-gray-700 dark:text-gray-300 w-full md:w-3/4">
-              I write on Medium to share insights from my journey as a programmer and FileNet developer.
+              I write on <a href="https://medium.com/@gihanshamikeliyanage" target="_blank" rel="noopener noreferrer" className="text-yellow-700 dark:text-yellow-500">Medium</a> to share insights from my journey as a programmer and FileNet developer.
               My blog covers topics like enterprise content management, Java tips, system integration, and lessons learned from real-world projects.
               It's a space where I document solutions, explore new technologies, and connect with others in the developer community.
             </p>
