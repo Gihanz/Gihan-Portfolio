@@ -37,7 +37,7 @@ export default function Projects() {
                         {project.title}
                       </h3>
                       <p className="text-xs sm:text-sm text-gray-500">
-                        {new Date(project.date).toLocaleDateString()}
+                        {project.date}
                       </p>
                     </div>
                   </div>
